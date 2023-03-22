@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Noto+Sans+KR');
+
+/* reset */
+
+* {margin: 0; padding: 0;}
+li {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none;}
+body {background-color: rgb(000,065,145); font-size: 15px;}
+#wrap {width: 1000px; height:1200px; margin: 0 auto; position: relative;}       
+#wrap header {position: absolute; top: 0; left: 0; z-index:999;  width: 1000px;
+     height: 70px; width: 1000px; background-color: #fff;box-shadow: 0 0 7px rgba(0,0,0,0.2); }
+#wrap h1.logo { width: 200px; height: 100px; float: left; position: absolute; top: 0; left: 0; z-index:2;}
+#wrap header h1.logo img { width: 100px; margin-top: 23px; margin-left: 10px;}
+#wrap header nav.menu { width: 800px; height: 100px;float: right;}
+#wrap header nav.menu ul { float: right;}
+#wrap header nav.menu ul li { float:left;}
+#wrap header nav.menu ul li a {display: block; width:130px; height: 30px;line-height: 30px; text-align: center; color: #fff; border-top:1px solid  rgb(000,065,145); 
+      margin-left: 1px; background-color: rgb(000,065,145);  margin-top: 17px; transition: .3s;}
+#wrap header nav.menu ul li a:hover,
+#wrap header nav.menu ul li a:focus {background-color: #fff; color: rgb(000,065,145); border-top:1px solid  rgb(000,065,145);
+     box-sizing: border-box; font-weight: bold;}
+#wrap section { font-family: 'Exo 2', sans-serif; clear:both; width: 1000px; position: relative; top: 70px; left: 0; z-index:-999; }
+#wrap section h2 { font-size: 70px; position: absolute; top: 350px; left: 50%; 
+         transform: translate(-50%, -50%); color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.5);}        
+#wrap video {width: 1000px;
+   /* border:1px solid red; */ 
+    position: absolute; top: 0;  left: 0; z-index:-999; box-shadow: 0 0 30px rgba(0,0,0,0.5);}
+ #wrap footer { width: 1000px; height: 40px; line-height:40px; position: absolute; top: 780px;  left: 0;
+     text-align: center; font-size: 13px; color: #fff; text-shadow: 0 0 5px #000;
+     /* border:1px solid blue;*/ }
